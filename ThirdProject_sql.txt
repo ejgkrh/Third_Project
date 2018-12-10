@@ -1,0 +1,12 @@
+// 맴버 테이블
+NUM, ID, NAME, BIRTH , TEL, TEL_G
+primary key -> NUM (회원번호)
+
+create table member
+(NUM int not null,
+ ID varchar(20) not null,
+ NAME varchar(20) not null,
+ BIRTH int ,TEL int 
+,TEL_G int,
+primary key(NUM))
+/
